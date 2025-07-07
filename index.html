@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+
+        <aside class="left ">
+            <div class="home  bg-grey rounded">
+                <div class="logo m-2 flex relative">
+                    <img class="invert svg " src="img/logo.svg" alt="logo">
+                    <button class=" icon"><img class="invert svg " src="img/icon x.svg" alt="logo"></button>
+
+                </div>
+                <ul>
+                    <li class="flex m-2"> <a href="#"><img class="invert svg" src="img/home.svg"
+                                alt="home icon">home</a></li>
+                    <li class="flex m-2"> <a href="#"><img class="invert svg" src="img/search.svg"
+                                alt="search icon">search</a></li>
+                </ul>
+            </div>
+            <div class="library flex m-2 p-1 bg-grey rounded">
+                <div class="l">
+                    <div class="yourlibrary relative">
+                        <img class="playlist invert  svg" src="img/playlist.svg" alt="playlist">Your library
+                        <img class="plus invert svg" src="img/plus.svg" alt="plus">
+                    </div>
+
+                    <div class="songlist">
+                        <ul class="">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="right bg-grey relative">
+            <div class="header flex relative">
+                <button class="ham bg-grey "><img src="img/hamburger.svg" alt="hamburger"></button>
+                <div class="lt flex ">
+
+                    <ul class="lt-list flex justify-centre">
+                        <li>
+                            <button class="ltgt">&lt;</button>
+                        </li>
+                        <li>
+                            <button class="ltgt">&gt;</button>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="righthead flex ">
+                    <div class="sign-up">
+                        <button class="">Sign up</button>
+                    </div>
+                    <div class="login">
+                        <button>Log in</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main background-2 rounded">
+                <div class="top relative flex">
+                    <div class=" spotify">
+                        <h2>Spotify Playlists</h2>
+                    </div>
+                    <div class="showall"><button class="">show all</button></div>
+                </div>
+                <div class="cards flex ">
+                    
+                </div>
+            </div>
+
+
+            <div class="player flex relative rounded ">
+                <div class="b">
+                    <button class="shuffle"><img src="img/shuffle.svg" alt="shuffle"></button>
+                    <button class="previous"><img src="img/previous.svg" alt="previous"></button>
+                    <button class="playpause"><img alt="play"></button>
+                    <button class="next"><img src="img/next.svg" alt="next"></button>
+                    <button class="loop"><img src="img/loop.svg" alt="loop"></button>
+                </div>
+                <div class="v flex">
+                    <button class="volume"><img src="img/volume-full.svg" alt="loop"></button>
+                    <input type="range" class="" id="volume" step="1">
+                </div> 
+                <div class="inputbar flex justify-centre">
+                    <div class="time1">00:00</div>
+                    <input type="range" name="progressbar" class="flex justify-centre" id="progressbar" min="0"
+                        value="0" step="1">
+                    <div class="time2">00:00</div>
+                </div>
+                <div class="songname flex justify-centre"></div>
+
+            </div>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

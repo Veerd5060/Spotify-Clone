@@ -1,0 +1,80 @@
+.red-border{
+    border: 2px solid red;
+    /* background-color: aqua; */
+}
+.flex{
+    display: flex;
+}
+.justify-centre{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.invert{
+     filter: invert(1000);
+}
+.bg-black{
+    background-color: black;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 6px;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 7px;
+}
+.p-1{
+    padding: 5px;
+}
+.p-2{
+    padding: 10px;
+}
+.p-3{
+    padding: 15px;
+}
+.svg{
+    height: 20px;
+}
+.background-2{
+    background-color: #1f1f1f;
+}
+
+.bstyle{
+    width: 6vw;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    font-size:x-small;
+}
+
+.relative{
+    position: relative;
+}
+.playing1{
+    border: 2px solid rgb(139, 195, 134);
+}
+.playing {
+  font-weight: bold;
+  animation: trippyText 10s infinite linear;
+  transition: color 2s ease-in-out;
+}
+
+@keyframes trippyText {
+  0%   { color: #a64ca6; }  /* Medium Violet */
+  25%  { color: #bf7fbf; }  /* Soft Lavender */
+  50%  { color: #8a2be2; }  /* Blue Violet */
+  75%  { color: #d1a3d1; }  /* Light Violet */
+  100% { color: #a64ca6; }  /* Back to Medium Violet */
+}
+
+.on{
+    /* background-color: rgb(142, 156, 161); */
+    background-color: rgb(139, 195, 134);
+}
+
